@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalyn's Portfolio</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <!--A header for the page to introduce me-->
+    <header class="row">
+      <div class="col-md-6 title-logo"><img class="img-responsive" data-toggle="modal" data-target="#myModal" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/5/005/00f/3a5/33f37b8.jpg" alt="The man himself!"></div>
+      <div class="col-md-6 text-right text-uppercase title-super">
+        <h1>Kalyn Warnock</h1>
+        <h4>Full-Stack Ninja</h4>
+      </div>
+    </header>
+    <!--Descriptive picture showing different parts of web development-->
+    <section class="row">
+      <div class="col-md-12"><img class="img-responsive" data-toggle="modal" data-target="#myModal" src="https://i.ytimg.com/vi/nMtgFZSdtwk/maxresdefault.jpg" alt="Front-End vs. Back-End"></div>
+    </section>
+    <section class="row text-muted">
+      <div class="col-md-12">Featured Works</div>
+    </section>
+    <!--Descriptive pictures of my projects and modals that link to descriptions of them -->
+    <section class="row text-center">
+      <div class="col-md-4">
+        <div class="col-md-12"><img class="img-responsive" data-toggle="modal" data-target="#Notes" src="images\Notes.jpg"  alt="Notes"></div>
+        <h3>Notes Webpage</h3>
+        <p>https://github.com/hackzor12/NotesWebpage</p>
+      </div>
+      <div class="col-md-4">
+        <div class="col-md-12"><img class="img-responsive" data-toggle="modal" data-target="#Trivia" src="images\Trivia.jpg"  alt="Trivia"></div>
+        <h3>Python Trivia Game</h3>
+        <p>https://github.com/hackzor12/TriviaGame</p>
+      </div>
+      <div class="col-md-4">
+        <div class="col-md-12"><img class="img-responsive" data-toggle="modal" data-target="#Movies" src="images\Movies.jpg"  alt="Movies"></div>
+        <h3>Movie Webpage</h3>
+        <p>https://github.com/hackzor12/MovieWebpage</p>
+      </div>
+    </section>
+
+    </div>
+  <!-- Modal for the notes project -->
+  <div class="modal fade" id="Notes" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel">Notes Webpage</h4>
+              </div>
+              <div class="modal-body">
+                  <img class="img-responsive" src="images\Notes.jpg">
+                  This was my first project in this class. I learned a lot about HTML and CSS.
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+<!-- Modal for the trivia LUI project in python -->
+<div class="modal fade" id="Trivia" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Trivia Game</h4>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive" src="images\Trivia.jpg">
+                This was my second project in this class. I learned a lot about modular programming and python.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal for the movies webpage project -->
+<div class="modal fade" id="Movies" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="modal-title" id="myModalLabel">Movies Webpage</h4>
+          </div>
+          <div class="modal-body">
+              <img class="img-responsive" src="images\Movies.jpg">
+              This was my third project in this class. I learned a lot serving html to the browser using python.
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+  </div>
+</div>
+</body>
+</html>

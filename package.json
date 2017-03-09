@@ -1,0 +1,9 @@
+{
+  "name": "kalyn-portfolio",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib": "^0.11.0",
+    "grunt-contrib-concat": "^1.0.1"
+  }
+}
