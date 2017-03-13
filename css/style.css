@@ -1,0 +1,50 @@
+
+/*Nexus 5*/
+@media only screen
+and (min-width : 321px) {
+  body{background-color: red;}
+  .row{display: block;
+       position: relative;
+      }
+}
+
+/* iPad*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+  body{background-color: black;}
+  .row{display: flex;}
+}
+
+/* Desktop*/
+@media only screen
+and (min-width : 1224px) {
+  body{background-color: green;}
+  .container{
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .row{
+    display: flex;
+  }
+}
+
+.h3,.p{
+  padding: 100px;
+}
+.text-muted{
+  color:#BCBBBB;
+}
+
+.text-thin{
+  font-weight: 100;
+}
+
+.title-super{
+font-size: 60px;
+}
+
+.title-logo{
+  margin-top:20px;
+}
